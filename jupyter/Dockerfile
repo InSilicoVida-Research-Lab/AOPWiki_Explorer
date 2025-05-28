@@ -22,6 +22,10 @@ RUN pip install .
 RUN pip install xmltodict pandas
 WORKDIR /home/jovyan/work
 
+## Loading essential data
+COPY data data
+COPY GraphEnricher.ipynb GraphEnricher.ipynb
+
 ## Switch back to root to set permission
 USER root
 RUN chown -R jovyan:users /home/jovyan/work
@@ -29,8 +33,5 @@ RUN chown -R jovyan:users /home/jovyan/work
 ## Switch back to non-root user
 USER jovyan
 
-## Loading essential data
-COPY data data
-COPY GraphEnricher.ipynb GraphEnricher.ipynb
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--notebook-dir=/home/jovyan/work","--NotebookApp.token=''", "--NotebookApp.password=''", "--allow-root"]

@@ -37,10 +37,11 @@ services:
     container_name: jupyter
     build:
       context: './jupyter'
-    user: 1000:1000  # Change the user and group to match the container's permissions
-
+    user: 1000:1000
     ports:
       - "8888:8888"
+    volumes:
+      - ./shared_data:/home/jovyan/work/shared_data  # Optional: for sharing with other containers
     links:
       - neo4j
     networks:

@@ -1,0 +1,170 @@
+{"Adult":{
+    "name": "Adult",
+    "normalized_term":"Adult",
+    "URI":"http://purl.obolibrary.org/obo/NCIT_C91107",
+    "defination": " An age group comprised of individuals who have reached sexual maturity but whose character and personality are still developing. In psychology this generally covers the age range of 20-40"
+},"Adults":{
+    "name": "Adult",
+    "normalized_term":"Adult",
+    "URI":"http://purl.obolibrary.org/obo/NCIT_C91107",
+    "defination": " An age group comprised of individuals who have reached sexual maturity but whose character and personality are still developing. In psychology this generally covers the age range of 20-40"
+},
+                   
+"Juvenile":{"name":"Juvenile",
+"normalized_term":"Juvenile stage",
+"URI":"http://purl.obolibrary.org/obo/UBERON_0034919",
+"defination":"The stage of being no more dependent of the nest and/or from caregivers for subsistence while having not reach sexual maturity."},
+
+"Adult, reproductively mature":{
+    "name":"Adult, reproductively mature",
+    "normalized_term":"Adult",
+    "URI":"http://purl.obolibrary.org/obo/NCIT_C17600",
+    "defination":"An age group comprised of humans who have reached reproductive age"
+},
+"Fetal to Parturition":{
+    "name":"Fetal to Parturition",
+    "normalized_term":"parturition period",
+    "URI":"http://opendata.inra.fr/ATOL/ATOL_0002186",
+    "defination":" period (day/month) during which female animals give birth (in relation to their natural sexual season) (fr)"   
+},
+"Nursing Child":{
+    "name":"Nursing Child",
+    "normalized_term":"Infant",
+    "URI":"http://purl.obolibrary.org/obo/NCIT_C27956",
+    "defination":"An age group comprised of individuals between one month and two years of age"
+},
+"During brain development":{
+    "name":"During brain development",
+    "normalized_term":"embryonic organ development",
+    "URI":"http://purl.obolibrary.org/obo/GO_0048568",
+    "defination":"Development, taking place during the embryonic phase, of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions"
+},
+
+"All life stages":{
+    "name":"All life stages",
+    "normalized_term":"life span",
+    "URI":"http://purl.obolibrary.org/obo/PATO_0000050",
+    "defination":" A time quality inhering in a bearer by virtue of the bearer's expected maximum age"
+    
+},
+"Development": {
+    "name":"Development",
+    "normalized_term":"embryo development",
+    "URI":"http://purl.obolibrary.org/obo/GO_0009790",
+    "defination":"The process whose specific outcome is the progression of an embryo from its formation until the end of its embryonic life stage. The end of the embryonic stage is organism-specific. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant."
+},
+
+"Foetal":{
+    "name":"Foetal",
+    "normalized_term":"fetal stage",
+    "URI":"http://purl.obolibrary.org/obo/HsapDv_0000037",
+    "defination":"Prenatal stage that starts with the fully formed embryo and ends at birth."
+},
+"Fetal":{
+    "name":"Foetal",
+    "normalized_term":"fetal stage",
+    "URI":"http://purl.obolibrary.org/obo/HsapDv_0000037",
+    "defination":"Prenatal stage that starts with the fully formed embryo and ends at birth."
+},
+
+"Embryo":{
+    "name":"Embryo",
+    "normalized_term":"Embryo",
+    "URI":"http://purl.obolibrary.org/obo/HsapDv_0000002",
+    "defination":"Prenatal stage that starts with fertilization and ends with a fully formed embryo, before undergoing last development during the fetal stage."
+
+},
+
+"Not Otherwise Specified":{
+    "name":"Not Otherwise Specified",
+    "normalized_term":"Not Otherwise Specified",
+    "URI":"None",
+    "defination":""
+},
+"Conception to < Fetal":{
+    "name":"Conception to < Fetal",
+    "normalized_name":"Fetal onset",
+    "URI":"http://purl.obolibrary.org/obo/HP_0011461",
+    "defination":"Onset prior to birth but after 8 weeks of embryonic development (corresponding to a gestational age of 10 weeks)."
+},
+
+"Pregnancy":{
+    "name":"Pregnancy",
+    "normalized_name":"Pregnancy",
+    "URI":"http://purl.obolibrary.org/obo/NCIT_C25742",
+    "defination":"The state or condition of having a developing embryo or fetus in the body (uterus), after union of an ovum and spermatozoon, during the period from conception to birth."
+},
+
+"During development and at adulthood":{
+    "name":"During development and at adulthood",
+    "normalized_term":"Status of progression of development in young adulthood",
+    "URI":"http://snomed.info/id/440399002",
+    "defination":""
+},
+"Perinatal":{
+    "name":"Perinatal",
+    "normalized_name":"perinatal stage",
+    "URI":"http://purl.obolibrary.org/obo/UBERON_0012101",
+    "defination":"The period spanning the range immediately before and after birth."
+},
+"1 to < 3 months":{
+    "name":"1 to < 3 months",
+    "normalized_term":"2-month-old human stage",
+    "URI":"http://purl.obolibrary.org/obo/HsapDv_0000175",
+    "defination":" Infant stage that refers to an infant who is over 2 and under 3 months old."
+    },
+
+"Larvae":{
+        "name":"Larvae",
+        "normalized_term":"None",
+        "URI":"None",
+        "description":""
+    },
+"3 to < 6 months":{
+        "name":"3 to < 6 months",
+        "normalized_term":"5-month-old human stage",
+        "URI":"http://purl.obolibrary.org/obo/HsapDv_0000178",
+        "description":"Infant stage that refers to an infant who is over 5 and under 6 months old."
+    },
+
+"Birth to < 1 month":{
+        "name":"Birth to < 1 month",
+        "normalized_term":"1-month-old human stage",
+        "URI":"http://purl.obolibrary.org/obo/HsapDv_0000174",
+        "description":"Infant stage that refers to an infant who is over 1 and under 2 months old. "
+    },
+"Old Age":{
+        "name":"Old Age",
+        "normalized_term":"old age",
+        "URI":"http://snomed.info/id/271872005",
+        "description":""
+    },
+"Larval development":{
+        "name":"Larval development",
+        "normalized_term":"None",
+        "URI":"None",
+        "description":""
+    },
+
+"During brain development, adulthood and aging":{
+    "name":"During brain development, adulthood and aging",
+    "normalized_term": "None",
+    "URI":"None",
+    "description":""
+},
+
+"before or during gonadal sex differentiation":{
+        "name":"before or during gonadal sex differentiation",
+        "normalized_term":"gonad development",
+        "URI":"https://www.ebi.ac.uk/QuickGO/term/GO:0008406",
+        "defination": "The process whose specific outcome is the progression of the gonad over time, from its formation to the mature structure. The gonad is an animal organ that produces gametes; in some species it also produces hormones."
+    },
+
+"Prepubertal":{ "name": "Prepubertal",
+                "normalized_term": "prepubertal",
+                "URI":"http://www.co-ode.org/ontologies/galen#prepubertal",
+                "description":""
+              }
+
+                   
+}
